@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calories Buddy</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Calories Buddy</h1>
+    </header>
+    <div class="container">
+        <textarea id="recipe-input" placeholder="Enter an ingredient list for what you are cooking, like, '1 cup rice, 10 oz chickpeas'"></textarea>
+        <div class="buttons">
+            <button id="analyze-btn">Analyze</button>
+            <button id="new-recipe-btn">New Recipe</button>
+        </div>
+        <div id="recipe-breakdown" class="section">
+            <table id="breakdown-table">
+                <thead>
+                    <tr><th>Qty</th><th>Unit</th><th>Food</th><th>Calories</th><th>Weight</th></tr>
+                </thead>
+                <tbody>
+                    <!-- Recipe breakdown will be inserted here -->
+                </tbody>
+            </table>
+        </div>
+        <div id="nutrition-facts" class="section">
+            <h3>Nutrition Facts</h3>
+            <!-- Nutrition facts will be inserted here -->
+        </div>
+    </div>
+    <script src="secrets.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
