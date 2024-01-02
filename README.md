@@ -1,13 +1,14 @@
 # Calories Buddy
 
 Calories Buddy is a web-based application that allows users to enter ingredients or recipes and receive an instant nutritional analysis, including calorie counts and detailed nutrient information. This application utilizes the Edamam Nutrition Analysis API to retrieve and display the nutritional data.
-
 ## Features
-
 - **Recipe Input**: Users can input multiple ingredients or complete recipes to get nutritional information.
 - **Nutritional Breakdown**: The application provides a detailed breakdown of calories and nutrients like fats, proteins, carbs, vitamins, and minerals.
 - **Responsive Design**: Crafted with a responsive layout for a consistent experience across desktop and mobile devices.
 - **Dynamic Content**: Utilizes JavaScript and AJAX for real-time content updates without the need for page reloads.
+- [DEMO](https://github.com/paudeldeepak/Calories-Buddy/blob/main/Demo/DEMO.mp4)
+
+![DEMO](https://github.com/paudeldeepak/Calories-Buddy/assets/73729890/cae9c545-22f1-4f17-9294-eafd1144a867)
 
 ## Getting Started
 
